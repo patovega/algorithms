@@ -2,6 +2,7 @@ using System;
 
 namespace algorithms
 {   
+    //reference: https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf
     public class QuickFind
     { 
         private int[] _array;
