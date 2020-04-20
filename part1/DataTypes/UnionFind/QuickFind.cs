@@ -19,13 +19,14 @@ namespace algorithms
             
             quickFind.Union(4, 3);
             quickFind.Union(3, 8);
-            quickFind.Union(6, 5);
             quickFind.Union(9, 4);
-            quickFind.Union(5, 0);
-            quickFind.Union(7, 2);
-            quickFind.Union(6, 1);
-            quickFind.Union(1, 0);
 
+            quickFind.Union(6, 5);
+            quickFind.Union(5, 0);
+
+            quickFind.Union(7, 2);
+            quickFind.Union(2, 1);
+            
             Console.WriteLine(quickFind.Find(0, 7));
             //is false
             Console.WriteLine(quickFind.Find(8, 9));
